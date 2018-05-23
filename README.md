@@ -68,6 +68,7 @@ The endpoint should also support an 'include' query parameter that returns an 'i
       "type": "test",
       "id": "B12",
       "attributes": {
+        "name": "Vitamin B12",
         "sample_volume_requirement": 180,
         "sample_tube_type": "yellow"
       }
@@ -76,6 +77,7 @@ The endpoint should also support an 'include' query parameter that returns an 'i
       "type": "test",
       "id": "HBA1C",
       "attributes": {
+        "name": "HbA1C",
         "sample_volume_requirement": 40,
         "sample_tube_type": "purple"
       }
