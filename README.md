@@ -69,8 +69,7 @@ The endpoint should also support an 'include' query parameter that returns an 'i
       "id": "B12",
       "attributes": {
         "sample_volume_requirement": 180,
-        "sample_tube_type": "yellow",
-        "price": 1700
+        "sample_tube_type": "yellow"
       }
     },
     {
@@ -78,8 +77,7 @@ The endpoint should also support an 'include' query parameter that returns an 'i
       "id": "HBA1C",
       "attributes": {
         "sample_volume_requirement": 40,
-        "sample_tube_type": "purple",
-        "price": 1700
+        "sample_tube_type": "purple"
       }
     }
   ]
