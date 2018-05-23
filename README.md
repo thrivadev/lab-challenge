@@ -28,7 +28,7 @@ It should also provide some information about the associated tests themselves in
     "attributes": {
       "price": 2100,
       "sample_tube_types": ["purple", "yellow"],
-      "sample_volume_requirement": 3400
+      "sample_volume_requirement": 220
     },
     "relationships": {
       "test": {
@@ -52,7 +52,7 @@ The endpoint should also support an 'include' query parameter that returns an 'i
     "attributes": {
       "price": 2100,
       "sample_tube_types": ["purple", "yellow"],
-      "sample_volume_requirement": 3400
+      "sample_volume_requirement": 220
     },
     "relationships": {
       "test": {
