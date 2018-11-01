@@ -36,5 +36,19 @@ class Test
       sample_volume_requirement: 80,
       sample_tube_type: :purple
     }
-  ]
+  ].freeze
+
+  def self.find_by(id)
+    result = DATA.select { |test| test[:id] == id }.first
+    result.present? ? Test.new(result) : nil
+  end
+
+  attr_reader :id, :name, :sample_volume_requirement, :sample_tube_type
+
+  def initialize(data)
+    @id = data[:id]
+    @name = data[:name]
+    @sample_volume_requirement = data[:sample_volume_requirement]
+    @sample_tube_type = data[:sample_tube_type]
+  end
 end
