@@ -23,7 +23,7 @@ It should also provide some information about the associated tests themselves in
 ```json
 {
   "data": {
-    "type": "test_panels",
+    "type": "test_panel",
     "id": "TP2",
     "attributes": {
       "price": 2100,
@@ -47,7 +47,7 @@ The endpoint should also support an 'include' query parameter that returns an 'i
 ```json
 {
  "data": {
-    "type": "test_panels",
+    "type": "test_panel",
     "id": "TP2",
     "attributes": {
       "price": 2100,
